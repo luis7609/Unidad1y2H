@@ -1,0 +1,367 @@
+1.6.1.	Procesamiento en tiempo real...................................................... 24
+1.6.2.	Visión.................................................................................................... 27
+1.6.3.	Lenguaje.............................................................................................. 30
+1.6.4.	Movimiento......................................................................................... 33
+1.6.5.	Tacto..................................................................................................... 35
+Para saber más................................................................................................. 36
+Cierre de la unidad......................................................................................... 37
+Fuentes de consulta....................................................................................... 38
+¡Bienvenido a la unidad 1! 
+Durante esta primera unidad tendrás oportunidad de estudiar qué es la interacción con robots, así como las diferentes formas de interactuar con estos sistemas y ejemplos que te ayuden a relacionar de mejor manera este tema.
+Actualmente la robótica, es algo que ha dado pasos agigantados, cada vez se ve más inmiscuida en las actividades cotidianas, en los diferentes sectores donde un ser humano se desempeña, desde labores del hogar, actividades del trabajo, en la medicina, seguridad y más. Al desarrollarse toda esta tecnología, se crea una cultura de convivencia con estos sistemas, por lo que debemos comprender el propósito de estos desarrollos y su propósito principal. En esta semana se estudiaremos cómo han evolucionado los robots y los criterios que debemos contemplar para crear una buena interacción con estos sistemas.
+Te invito a estudiar estos contenidos de manera profunda y, ante cualquier duda, contactar a tu profesor a través del área de mensajes.
+“Estudiar no es un acto de consumir ideas, sino de crearlas y recrearlas” Paulo Freire
+¡Éxito en esta primera unidad!
+ 
+Al término de esta unidad lograrás:
+•	Relacionar la palabra interacción en el ámbito de la robótica, resaltar la importancia de las tres leyes de la robótica, la identificación de los tipos de interacción, a través de la participación y retroalimentación de opiniones en un foro de discusión, en el que los comentarios realizados deberán apegarse a las reglas del foro y cumplir con las especificaciones de la rúbrica de evaluación para esta actividad.
+•	Comprender la relación que se puede dar entre humano y robot, además de identificar las herramientas con las que cuenta el robot para operar, percibir y transmitir datos, elaborando un ensayo en el que se proyecten las ideas sobre el desarrollo que tendrán en el futuro los robots, la forma en que se ven y cómo se verán involucrados en la vida cotidiana; el ensayo será evaluado mediante los criterios establecidos en la rúbrica de evaluación.
+ 
+Interacción
+La palabra interacción, describe a grandes rasgos una acción que se ejecuta de manera reciproca, pudiendo ser entre dos o más organismos, objetos, agentes, unidades, etc., de acuerdo a esto se puede hacer referencia al intercambio de información, pero no solo a través del habla; es todo aquel sistema que involucra una acción, una respuesta y una retroalimentación. Cuando nos referimos a las máquinas y en nuestro caso a los robots podemos observar diferentes formas de interacción, ya que la colaboración se puede dar de diferentes maneras.
+La interacción se puede dar en diferentes momentos, al ingresar datos en un HMI, recibir información, acciones o procesos por parte de los robots o maquinas.
+ 
+Una definición exacta seria: Campo de estudio dedicado al entendimiento, diseño y evaluación de sistemas robóticos para ser usados por o con humanos (Goodrich y Schultz, 2008).
+Esta nueva área de investigación es el punto donde convergen otras muchas disciplinas como la Electrónica, la Teoría de Control, las Ciencias de la Computación, la Inteligencia Artificial, la Sociología, la Psicología, el Diseño Industrial y el Arte.
+ 
+Las interacciones que podemos desarrollar con los robots pueden ser:
+•	Interacción Próxima
+•	Interacción social
+•	Interacción cognitiva
+•	Interacción emotiva
+•	Interacción física
+•	Interacción remota
+•	Tele-operación
+•	Supervisión
+•	Tele-manipulación
+La tecnología da pasos agigantados hacia el futuro, lo que en un momento podría parecer inalcanzable, cada vez se hace más presente, en algún momento con los relatos creados por el escrito Asimov, en donde podíamos imaginar un mundo en donde compartimos la existencia con los robots como aliados se está volviendo una realidad. Cada vez se vuelve más una necesidad la interacción y colaboración con estos sistemas.
+Cuando escuchas la palabra robot, ¿cuál es la primera imagen que te viene a la cabeza? ¿un Terminator programado para acabar con la humanidad, un robot industrial diseñado para ensamblar componentes en una cadena de montaje, una pareja entrañable de androides como R2-D2 y C-3PO, o un simple robot aspirador?
+ 
+Cuando hablamos de robots, es más fácil comprender su comportamiento de acuerdo con las funciones que va a realizar de la mano de los humanos, en lugar de hacer referencias hacia la parte técnica. una vez que identifiquemos el papel que realiza un robot para cumplir con el objetivo para el cual se creó podremos asociar las similitudes que tienen con los humanos.
+Actualmente hay un sinnúmero de robots que cubren diferentes áreas. A continuación, podemos mencionar algunos de los más sobresalientes en la actualidad:
+•	Misty1
+Desarrollado por Misty robotics, este es un robot muy especial ya que puede ser reprogramado de acuerdo con las necesidades que se tienen, además de contar con la ventaja de que, al programarse por bloques, este sistema puede auto programarse, logrando extender sus actividades, además de integrar gran cantidad de sensores que complementan y amplían sus funciones
+•	TIAGo- Robot cervecero
+Este Robot fue creado en Alemania, específicamente programado para abrir el refrigerador y llevar una cerveza a la persona la solicitó, lo sobresaliente de este sistema, es su capacidad para reconocer el entorno y en específico elegir una cerveza entre la gama de productos que se puede integrar en un refrigerador.
+•	Cheeta3- Labrador ciego
+Este sistema es increíble, ya que busca tener la similitud	a	cualquier	animal	cuadrúpedo,	una característica muy importante, de este robot: no cuenta con sensores de visión, su funcionamiento es totalmente predictivo además de operar bajo la detección por contacto.
+Un gran avance lo podemos ver en el robot SOFIA, un robot antropomórfico que es en la actualidad el robot humanoide más inteligente, este sistema ya cuenta con capacidades muy similares a la de los humanos.
+ 
+Un escritor de ciencia ficción, que fue pionero en desarrollar textos acerca de los robots es Isaac Asimov; se le pueden atribuir las leyes de la robótica.
+El control de los robots sobre la humanidad, es unos de los miedos que la sociedad ha creado desde el origen de estos sistemas, por ello Isaac Asimov busco una manera de limitar y programar de forma ficticia a los robots para evitar que se haga realidad este temor. A pesar de ser ficción, los desarrollos robóticos que se han creado adoptaron estas leyes.
+1.	Un robot no hará daño a un ser humano o, por inacción, permitirá que un ser humano sufra daño.
+2.	Un robot debe cumplir las órdenes dadas por los seres humanos, a excepción de aquellas que entrasen en conflicto con la primera ley.
+3.	Un robot debe proteger su propia existencia en la medida en que esta protección no entre en conflicto con la primera o con la segunda ley.
+ 
+Cuando hablamos de interacción estamos definiendo los tipos de lazos que podemos crear con estos sistemas, como se mencionó antes, hay muchas formas de interacción, pero podemos inmiscuirnos específicamente en la interacción próxima y la remota.
+La interacción próxima es aquella en donde podemos convivir con el sistema de una manera directa, se intercambian datos mediante el contacto directo, en pocas palabras, es nombrada próxima porque es una interacción presencial.
+Esta interacción puede ser:
+•	Interacción social
+•	Interacción cognitiva
+•	Interacción emotiva
+•	Interacción física
+Con estas interacciones entendemos el desarrollo que realizaremos en las áreas de aplicación y las formas de conseguirlo.
+ 
+Los robots diseñados para realizar una interacción social son fácilmente identificables, usualmente tienen una apariencia antropomórfica, de inspiración biológica o son una especie de mestizaje tecnológico entre animales y seres humanos, una especie de caricaturas llevadas a la realidad e incluso hay algunos de estos robots que tratan de imitar completamente la apariencia humana, brindándoles textura de la piel, movimientos faciales y más.
+A pesar de que estamos en el surgimiento de la robótica social, al momento ya existe una gran variedad de robots sociales usados para la investigación de la Interacción Humano Robot, como se conoce comúnmente a esta disciplina.
+Cabe destacar que también los robots difieren de su grado de autonomía y diversas características que otros estudios dan a conocer con mayor profundidad.
+Estos robots pueden clasificarse de alguna manera como:
+	Socialmente evocativo: Robots que se apoyan en la tendencia humana de antropomorfizar y capitalizar los sentimientos evocados por la crianza, el cuidado de otros o involucrados con su “creación”.
+	Interfaz social: Robots que proveen una interfaz “natural” empleando reglas sociales y modalidades de comunicación humana. El comportamiento social es solo modelado en la interfaz la cual resulta en modelos poco profundos de cognición social.
+	Receptivo socialmente: Robots que son socialmente pasivos pero que pueden beneficiarse de la interacción, por ejemplo, aprendiendo ciertas habilidades por imitación.
+	Sociable: Robots que son proactivos y se involucran con humanos para satisfacer sus objetivos sociales internos (controles, emociones, etcétera.). Estos robots requieren de modelos profundos de cognición social.
+Esta Interacción utiliza técnicas provenientes del campo de las Ciencias Cognitivas. Se ocupa de implementar robots que perciben, razonan y actúan en entornos dinámicos, desconocidos e imprevisibles. Deben tener funciones cognitivas de muy alto nivel que impliquen razonar, por ejemplo, acerca de las metas, las acciones, el tiempo, los estados cognitivos de otros robots, cuándo y qué percibir, aprender de la experiencia, etc.
+Para eso, deben poseer un modelo simbólico e interno de su entorno local, la suficiente capacidad de razonamiento lógico para tomar decisiones y para ejecutar las tareas necesarias a fin de alcanzar sus objetivos. En pocas palabras, esta línea de trabajo se ocupa de implementar características cognitivas en los robots, tales como percepción, formación de conceptos, atención, aprendizaje, memoria a corto y largo plazo, etc.
+Si se consigue que los robots desarrollen por sí mismos sus capacidades cognitivas, se evitaría el programarlos “a mano” para cada tarea o contingencia concebible. Asimismo, si se logra que los robots utilicen representaciones y mecanismos de razonamiento similares a los humanos, se podría mejorar la interacción hombre-máquina, así como las tareas de colaboración.
+Sin embargo, se necesita un elevado poder de procesamiento, en especial si el robot cuenta con numerosos sensores, actuadores y mucha memoria para representar el espacio de estados.
+ 
+La Inteligencia Artificial concibe ya la fabricación de máquinas que reconozca, comprendan y expresen emociones similares a las humanas, con la finalidad de lograr que sea “genuinamente inteligente” y que interaccione de manera adecuada con las personas.
+Para poder realizar esta interacción se necesita de equipo con hardware y software especial, además de infinidad de algoritmos, con ello el sistema artificial podrá ver, reconocer expresiones faciales, posturas corporales, detectar pautas vocales, entonaciones del habla, dilatación en las pupilas, cantidad de latidos cardíacos y hasta patrones odoríferos característicos. De esta manera, será capaz de inferir con bastante precisión el estado emocional en que se encuentran las personas y actuar en consecuencia. Será capaz de inferir con bastante precisión el estado emocional en que se encuentran las personas y actuar en consecuencia.
+Al tener emociones -al menos potencialmente- “motivaciones”, los robots actúan de acuerdo con sus “intenciones”. Así, se podría equipar a un robot con dispositivos que controlen su medio interno; por ejemplo, que “sientan hambre” al detectar que su nivel de energía está descendiendo o que “sientan miedo” cuando aquel esté demasiado bajo.
+Sin embargo, emular las reacciones emocionales del ser humano no significa necesariamente que se pueda conseguir que una máquina “sienta” en el estricto sentido de la palabra.
+En realidad, que una máquina tenga o no emociones no es la cuestión, ya que de tenerlas serían tan diferentes de las del hombre que a éste le resultaría extremadamente difícil de entender. Sería como intentar representarse el mundo como lo hace un delfín, que percibe su entorno acuático mediante el sentido de la ecolocación.
+No se buscan sistemas que se enojen o que estén alegres, sino que puedan enfocar su atención y mejorar la toma de decisiones, acomodándose al contexto del momento. Una máquina que reconozca comprenda y exprese emociones similares a las humanas, podría ser un mejor colaborador que las actuales.
+Equipado con hardware y software especial, el sistema artificial podrá ver y reconocer expresiones faciales (por ejemplo, una sonrisa conduce a un estiramiento de los músculos bucales; la sorpresa, a alzar las cejas; cólera, a contraer la frente; indignación, a movimientos en todo el rostro) posturas corporales, detectar pautas vocales y entonaciones del habla, dilatación en las pupilas, cantidad de latidos cardíacos, hasta patrones odoríferos característicos, de esta manera, será capaz de inferir con bastante precisión el estado emocional en que se encuentran las personas y actuar en consecuencia.
+La interacción física es la más común que se puede dar, la más fácil de entender y establecer, ya que a diario entramos en contacto con los robots, en una planta automatizada, en deportes, construcciones. En general podemos decir que la encontramos en todas las tareas desempeñadas en donde interviene un tipo de esfuerzo físico.
+En una planta automatizada podemos encontrar múltiples ejemplos, en una línea de producción encontramos robots que trasladan material de un lado a otro, que se encargan de tareas como pintar o cortar.
+Pero no solo se desarrolla esta interacción con el trabajo, también lo podemos ver en el deporte haciendo que las personas mejoren sustancialmente ante acciones precisas y exactas realizadas por robots.
+Dicho esto, podemos definir que la interacción física se da cuando buscamos sustituir al humano para realizar tareas en las que se involucre cualquier esfuerzo físico.
+Esta manera de interactuar se basa en ordenes programadas específicamente, como posicionarse en algún lugar, aplicar fuerza, recoger algún objeto, desplazarse o desplazar objetos etc.
+A diferencia de la interacción próxima, en este tipo de interacción no requerimos de estar a lado del robot, podemos crear un vínculo a distancia, este tipo de lazo es desarrollado para aquellas aplicaciones en las que requerimos del apoyo de un sistema para evitar poner en riesgo la integridad de una persona, son actividades que se dan en entornos poco seguros, demasiado lejanos o donde las condiciones o ambientes que carecen de características para que un cuerpo humano pueda permanecer en el.
+La interacción remota se desarrolla en tres ámbitos:
+•	Tele-operación
+•	Supervisión
+•	Tele-manipulación
+El control a distancia genera una confusión al hablar sobre sistemas tele operados y tele manipulados. Cuando hablamos de un sistema tele operado contamos con un control programado propio del robot, es decir el robot no requiere de instrucciones para actuar o realizar movimientos, solo se le proporciona una instrucción y de acuerdo al entorno el robot tendrá la capacidad de desarrollar su propia forma de trabajo, este tipo de sistema es implantado en los llamados robots de servicio.
+Los robots de servicio son dispositivos electromecánicos móviles o estacionarios, dotados normalmente de uno o varios brazos mecánicos independientes, controlados por un programa ordenador y que realizan tareas no industriales de servicio.
+ 
+Un sistema de supervisión solo consta de sensores de visión; que pueden vigilar un entorno, un claro ejemplo de supervisión son los drones, que proporcionan imágenes en tiempo real de un lugar distante. Dentro de este sistema también podemos incluir los robots industriales que cuentan con un sistema de visión capaz de identificar colores, deformaciones, formas etc., normalmente usados en la industria para evitar productos defectuosos.
+Dependiendo del área de aplicación la supervisión se puede complementar con algún sistema que actué de acuerdo a lo que se está percibiendo en las imágenes, como ejemplo podemos mencionar un sistema de visión que detecté botellas de refresco mal etiquetadas, al detectar el error un sistema puede acceder y retirar el producto defectuoso.
+ 
+Como se vio con anterioridad la tele-operación difiere de la tele-manipulación, pues los dispositivos con este sistema no se mueven mediante el control de un programa ordenador, sino que están controlados directamente por un operador humano. Estos sistemas deben contar un sistema de transmisión de video en tiempo real, en alta definición, ya que normalmente son empleados para aplicaciones exactas en las que requieren movimientos precisos.
+Principalmente se usa la tele-manipulación en aplicaciones médicas, o en actividades de exploración, para operar estos dispositivos con este sistema, requerimos de un operador, un sistema de procesamiento y un receptor. Como se muestra en la imagen.
+ 
+1.6. Percepción multi-modal en los robots
+La percepción multi-modal es el estudio de cómo	la	información	de	las	diferentes modalidades sensoriales, como la vista, el sonido, el tacto, el olfato y el gusto puede ser integrada por el sistema nervioso.
+En un ser humano, un sentido es una fuente de información sobre el mundo que lo rodea, para que en base a dicha información el cerebro tome una decisión. Los sentidos proveen datos sobre temperatura, luz, sonido, fuerza, olor, sabor, etc.; vista, tacto, oído, gusto y olfato son los sentidos que tradicionalmente se asocian a una persona. Extrapolando la misma idea a los robots, ya se dispone de la tecnología para dotarlos de sentidos, mediante el uso de computadoras que sustituyen al cerebro, y micrófonos, cámaras, sensores, etc. que sustituyen a los ojos, la piel, los oídos, la lengua y la nariz.
+En general, resulta demasiado costoso e impráctico para los proyectos que se requieren y/o desarrollan dotar a un robot con los mismos sentidos con los que cuenta un ser humano; estas condiciones se presentan debido a lo corto que suelen ser los tiempos, presupuestos; los robots normalmente se desempeñan en ambientes específicos y/o controlados, que solo requieren de algún sentido en especial, incluso más desarrollado que su contraparte humana.
+La percepción multi-modal es lo que caracteriza un robot y lo diferencia de un manipulador, un robot puede procesar datos, transmitir datos, realizar acciones, todo ello al mismo tiempo, esto haciendo uso de un procesamiento en tiempo real. En el link mostrado podemos observar un video sobre cómo actúa la percepción multi-modal en un robot
+1.6.1 Procesamiento en tiempo real
+Este es un sistema de procesamiento de información el cual tiene que responder a estímulos de entrada generados externamente en un período finito y específico.
+Las respuestas correctas dependen no sólo de los resultados lógicos sino también del tiempo en que son entregadas.
+Las fallas para responder a tiempo son tan malas como una mala respuesta. Si en el sistema se incorporan eventos que evolucionan más rápidamente que las acciones que pueden manejarlos, entonces las acciones NO serán efectivas.
+Un sistema de tiempo real forma parte de un sistema más amplio como puede ser el Sistema Empotrado o Embedded System. El sistema de tiempo real debe adaptarse a la dinámica del sistema controlado.
+ 
+1.6.1 Procesamiento en tiempo real
+Elementos de un procesamiento en tiempo real
+ 
+1.6.1 Procesamiento en tiempo real
+Características de un procesamiento en tiempo real
+•	Tiempo
+•	Administración y control del tiempo.
+•	La ejecución correcta no solo considera la lógica sino también el tiempo en que se producen los resultados.
+•	Tareas deben ser asignadas y terminadas antes de su plazo.
+•	Confiabilidad
+•	Predictibilidad.
+•	Tolerancia a Fallos.
+•	Seguridad.
+•	Ambiente
+•	Características dinámicas del ambiente.
+Un sistema en tiempo real es una combinación de computadoras, dispositivos de E/S, hardware y software de propósito específico en donde:
+•	Existe una fuerte interacción con el ambiente.
+•	El ambiente cambia con el tiempo.
+•	El sistema debe controlar y/o reaccionar a diferentes aspectos del ambiente.
+Si solo se va a incorporar un sentido al robot, la selección se inclinará naturalmente hacia el que más información proporcione sobre el ambiente; en general, la información que suele requerirse son dimensiones físicas como tamaño, volumen, posición, velocidad, aceleración, dirección, etc., por lo que el sentido seleccionado suele ser la vista.
+Una imagen puede suministrar mayor cantidad de información sobre las dimensiones de un lugar, un objeto o una persona, que la que podría obtenerse a través de un olor, un sonido, un sabor o una textura. En adelante se utilizarán los términos imagen e imagen digital de forma indistinta.
+La tecnología que se encarga de dotar del sentido de la vista a un robot se denomina visión artificial o visión por computadora, su propósito es “entender” las características de una imagen y en consecuencia generar una acción.
+La visión artificial está profundamente apoyada en el procesamiento de imágenes, el proceso de obtener información a través de la visión artificial para la toma de una decisión puede esquematizarse como muestra la imagen.
+ 
+En visión artificial la cámara es el elemento que reemplaza al ojo humano. La cámara tiene como propósito convertir la luz presente en el lugar de trabajo, en una señal eléctrica que una computadora pueda utilizar.
+Las cámaras ya no resultan extrañas, debido a la gran cantidad de modelos disponibles en el mercado, pero cabe mencionar que en el ambiente científico e industrial no cualquier tipo de cámara resulta útil para los fines que se persiguen. Los dispositivos que se han diseñado específicamente para las tareas en los ambientes antes mencionados son denominados cámaras de visión artificial. Las cámaras de visión artificial son más sofisticadas que las convencionales, ofreciendo un completo control de los tiempos y señales de la cámara.
+El procesamiento de imágenes, conocido también por sus siglas PDI, que comprende la manipulación por computadora de imágenes reales, resuelve problemas al identificar ciertos espectros, ya que puede automatizar el proceso de extracción de información útil de los datos contenidos en la imagen, y también permite perfeccionar la imagen, corregir distorsiones, etc.
+El PDI se efectúa dividiendo la imagen en un arreglo rectangular de elementos; cada elemento de la imagen así dividida se conoce como píxel.
+Cuando el PDI termina de optimizar la información de la imagen, la visión artificial entra en acción.
+Los objetivos típicos de la visión artificial incluyen:
+•	Reconocimiento de ciertos objetos en imágenes, por ejemplo, rostros humanos.
+•	La evaluación de los resultados; por ejemplo, obtener las dimensiones de un objeto proveniente de una máquina CNC y comprobar que cumpla con las especificaciones de diseño.
+•	Registro de diferentes imágenes de una misma escena u objeto; por ejemplo, hacer concordar un mismo objeto en diversas tomas.
+•	Seguimiento de un objeto en una secuencia de imágenes. Se suele utilizar para medir posición, velocidad y aceleración.
+•	Mapeo de una escena para generar un modelo tridimensional; tal modelo puede ser usado por un robot para navegar por la escena.
+•	Estimación de las posturas tridimensionales de humanos.
+ 
+Hay múltiples maneras de comunicarse con un robot, pero podemos representar tres soluciones principales para poder lograrlo.
+•	Reconocimiento de palabras separadas.
+•	Enseñanza y repetición.
+•	Lenguajes de programación de alto nivel.
+Reconocimiento de palabras separadas
+•	Los sistemas de reconocimiento de la von en la tecnología moderna son bastante primitivos y suelen depender de quien habla.
+•	Estos sistemas pueden reconocer un conjunto de palabras concretas de un vocabulario muy limitado y en general, exigen una pausa entre palabras.
+•	La utilidad del reconocimiento de palabras separadas para describir la tarea de un robot es bastante limitada.
+Enseñanza y repetición
+•	También se le conoce como guiado, esta es la solución más común utilizada para los robots industriales.
+•	Este método implica enseñar al robot dirigiéndolo a los movimientos que el usuario desea que realice.
+•	Guiar al robot se puede hacer mediante el uso de un joystick, un conjunto de botones o un sistema de manipulación maestro-esclavo.
+Lenguaje de programación de alto nivel
+•	Con este tipo de programación es más fácil generar una comunicación hombre-robot.
+•	Los lenguajes clásicos de programación que se usan en informática no disponen de instrucciones, comandos específicos que pueda interpretar un robot, es por ello que se han desarrollado lenguajes propios de la robótica, sin embargo, estos lenguajes varían, ya que cada fabricante genera su propio lenguaje de acuerdo al modelo y tareas a realizar.
+La programación empleada en robótica puede tener un carácter:
+Implícito: Basado en la modelación del mundo exterior, cuando se describe la tarea y el entorno, el propio sistema toma decisiones. Para este se dan las instrucciones programándolas directamente en el robot mediante un leguaje.
+Explícito: El operador es responsable de las acciones de control y las instrucciones adecuadas que las implementan. Para este caso la programación es gestual, es decir se tienen que simular las acciones a realizar y todas las posiciones van siendo guardadas en localidades de memoria para después poder hacer la reproducción de estos movimientos.
+Las seis características básicas de un lenguaje ideal son:
+1.	Claridad y sencillez
+2.	Claridad de la estructura del programa
+3.	Sencillez de aplicación
+4.	Facilidad de ampliación
+5.	Facilidad de corrección y mantenimiento 6. Eficacia
+El movimiento es el cambio de posición de un objeto en el transcurso de tiempo. En física hay dos disciplinas que se encargan de estudiar el tema de movimiento por separado.
+Por un lado, está la cinemática del movimiento que estudia el movimiento de los cuerpos independientemente de las causas que lo producen y por otro lado se encuentra la dinámica que se encarga de estudiar las causas que provocan el movimiento.
+Para entender el movimiento de un robot es necesario contemplar algunas definiciones:
+•	Posición: Es la ubicación de un cuerpo en el espacio, relativa a un sistema de referencia.
+•	Desplazamiento: Cambio de posición de una partícula en el espacio.
+•	Velocidad: Magnitud física que expresa el desplazamiento de un objeto por unidad de tiempo.
+ 
+Tipos de movimiento
+Para un objeto que se mueve se pueden distinguir al menos dos tipos de movimientos diferentes y los grados de libertad:
+Traslación: Un cuerpo está en traslación si todos los puntos que lo componen describen la misma trayectoria, que puede ser rectilínea o curvilínea. Cada punto de un cuerpo rígido en traslación tiene la misma velocidad y aceleración. En el movimiento de traslación en una dimensión hablamos de posición lineal, velocidad lineal y aceleración lineal.
+Rotación: Un cuerpo está en traslación si se mueve de alrededor de un eje fijo y describe una circunferencia, cuyo radio es su distancia al eje. En el movimiento de rotación en una dimensión hablamos de posición angular, velocidad angular y aceleración angular.
+Grados de libertad: Hacen referencia al número de movimientos independientes que se pueden realizar. En otras palabras, un grado de libertad es la capacidad de moverse a lo largo de un eje (movimiento lineal) o de rotar a lo largo de un eje (movimiento rotacional). Por ejemplo, un automóvil posee tres grados de libertad, dos de posición y uno de orientación.
+En conjunto los tipos de movimiento con los grados de libertad podemos obtener diferentes articulaciones, las cuales se hacen presentes en los diferentes tipos de robot, a los cuales se les otorgara loas articulaciones pertinentes para que se puedan mover de acuerdo a su ámbito de trabajo.
+El tacto es uno de los sentidos más importantes con los que cuenta el ser humano, gracias a este se pueden percibir demasiadas sensaciones, como texturas o temperaturas, para lograr esta cualidad en los robots se requerirían de un sin número de sensores implantados a lo largo del área donde se requiera que el robot pueda percibir conjugado con algoritmos con los cuales se procese la información y el robot pueda definir una sensación de algún material específico, presión o fuerza.
+A pesar de la complejidad de la integración de esta capacidad en los robots, se han logrado desarrollar avances para lograr implementar esta sensación.
+Aunque aún no se ha desarrollado completamente el sentido del tacto, este sistema se basa en equipar con sensores de fuerza capaces de percibir la menor resistencia o presión, por lo que pueden adaptar sus movimientos al entorno y en tiempo real.
+Al implantar el tacto con su debida programación, no es necesario por ejemplo reprogramar a un robot para empaquetar objetos de diferentes dimensiones y pesos, lo que supone una ayuda para aumentar la eficiencia y productividad.
+Con todo esto podemos lograr un mayor rendimiento, gracias a la velocidad de inserción, manipulación de diferentes materiales, control de fuerza y registro de trayectoria con modo de velocidad constante las empresas conseguirán un mayor rendimiento de fabricación al hacer uso de robots con esta capacidad.
+Para saber más sobre los temas vistos en esta unidad revisa los siguientes materiales:
+•	Interacción con el robot más inteligente de la actualidad
+En este video ayuda a entender los nuevos sistemas inteligentes. https://www.youtube.com/watch?v=bbW0xcrsOo
+•	Robots sociales entre nosotros
+En este video podrás entender como se ha desarrollado la tecnología al grado de poder tener robots dentro de nuestra sociedad. https://www.youtube.com/watch?v=Mo7fJc30BcA
+•	Los Robots del futuro
+Con esta lectura podrás entender como se ha desarrollado este tipo de tecnología en México, la importancia que se genera para confiar en el futuro próximo. Los robots del futuro y su importancia para México.
+Como conclusión y de acuerdo a los temas revisados en la Unidad 1, podemos concluir que los robots son sistemas inteligentes que han crecido a pasos agigantados tecnológicamente. Es de gran importancia saber el comportamiento de los mismos y definir la forma de integrarlos a las diferentes áreas de trabajo, así como a la sociedad, debido a que al realizar labores tanto domesticas como industriales, debemos aprender a convivir con esta tecnología de manera loable, ya que al final toda tecnología es creada para el bien de la humanidad buscando prevalecer la integridad, salud y bienestar de las personas ante labores que significan un riesgo considerable.
+Actualmente este tipo de tecnología ha crecido tanto, que no solo realiza acciones, ya empieza a tener criterios sobre su manera de actuar; para sobrellevar mejor esta situación que se dará entre humanos y robots, es importante conocer todas las capacidades y características que se le pueden implementar a un robot.
+En la siguiente unidad, estudiarás las diferentes habilidades con las que puede contar un robot, de acuerdo a sus funciones y características de construcción.
+¡El éxito es la suma de pequeños esfuerzos que se repiten cada día!
+¡Felicidades! 
+Has concluido la unidad la primera parte de la unidad 1, continúa esforzándote.
+•	Barrientos, A. (2007). Fundamentos de robótica. McGraw Hill.
+•	Craig, J. (2005). Robótica. 3ra edición. Prentice Hall.
+•	Goleman, D. (1999). La inteligencia emocional. Editorial B Argentina.
+•	Haugeland, J. (1988). La Inteligencia Artificial. Siglo XXI.
+•	MMF. (2 de junio de 2016). Robots sociales entre nosotros. [Video]. YouTube. https://www.youtube.com/watch?v=Mo7fJc30BcA
+•	Reyes, F. (2011). Robótica, control de robots manipuladores. Alfaomega.
+•	RT en Español. (5 abril 2018). Cita entre Will Smith y el robot Sophia. [Video]. YouTube. https://www.youtube.com/watch?v=b-bW0xcrsOo
+
+Un robot adquiere más habilidades, la tecnología sigue avanzando, desarrollándose. Lo que antes parecía una fantasía, como los supersónicos, o demás caricaturas futuristas, se están volviendo realidad. En esta semana se verán las habilidades con las que puede contar un robot, con ellas te darás cuenta del gran desarrollo que se ha logrado en distintos ámbitos en los que un robot puede tener injerencia.
+Podrás darte cuenta de que un robot, gracias al desarrollo de la inteligencia artificial, puede identificar gestos, movimientos y hasta desarrollar emociones basadas en el comportamiento humano o hasta llegar a tener su propio pensamiento cognitivo.
+Para desarrollar todas estas capacidades, debemos implementar, sistemas de visión, hacer uso de sensores, programar patrones de comportamiento; aunado a esto identificar y tener claros diversos conceptos que se irán desarrollando a lo largo de la lectura de este documento.
+En esta semana nos daremos cuenta de los tipos de comunicación que requerimos implantar y desarrollar con los robots, para que puedan ejecutar las tareas que necesitamos, dependiendo el área de aplicación y la forma de obtener una retroalimentación por ambos sentidos
+Te invito a estudiar estos contenidos de manera profunda y, ante cualquier duda, contactar a tu profesor a través del área de mensajes.
+“Nunca se ha logrado nada sin entusiasmo” Emerson
+¡Éxito en esta segunda unidad!
+ 
+Al término de esta unidad lograrás:
+• Identificar las habilidades de un robot, relacionando los métodos y herramientas instaladas con los modos de comunicación y operación de un robot, comprobando los conocimientos obtenidos mediante un test de evaluación que comprenderá las semanas 1, 2 y 3.
+ 
+La robótica situada es el estudio de los robots en ambientes complejos -a veces- cambiantes. Automóviles robóticos transitando por avenidas o robots navegando en entornos llenos de personas son ejemplos de robots situados; por otro lado, un robot en una línea de producción, donde el entorno no cambia de manera significativa, es un ejemplo de un robot no situado.
+La relación entre un robot y su entorno definen el modo en que el robot afecta el entorno, como éste influye en su comportamiento con el ambiente. Esta relación, junto con la serie de tareas para las cuales es diseñado un robot, define el tipo de control que debe tener el robot.
+La interacción entre humanos y robots estudia la forma en que la gente se comunica con los robots y como hacer dicha comunicación eficiente. Los robots pueden clasificarse según su aplicación en tres grandes categorías: robots industriales, robots de servicio profesional y robots de servicio personal. Cada uno de ellos involucra distintos tipos de interacción con el hombre.
+ 
+Los robots industriales son máquinas controladas por una computadora que son capaces de manipular físicamente el ambiente en el que operan. Las funciones clásicas de los robots en la industria incluyen el ensamblaje, transportación y manejo de materiales. La industria automotriz utiliza ampliamente los robots industriales en sus líneas de producción. La investigación de interfaces de interacción entre humanos y este tipo de robots se enfocó en el desarrollo de técnicas para la rápida configuración y programación de los robots.
+Los robots de servicio profesional pueden manipular y navegar en ambientes físicos. Las funciones que estos robots desempeñan incluyen la exploración marítima, manipulación de químicos, aplicaciones militares y otras actividades que resultan riesgosas para el ser humano. Este tipo de robots interactúan con personas y comúnmente comparten el ambiente con ellas.
+Finalmente, los robots de servicio personal están diseñados para auxiliar al hombre en tareas domésticas o entretenerlos. El espacio físico en que este tipo de robots se desenvuelve involucra una constante interacción con personas.
+Los robots de servicio pueden tener dos tipos de interfaces de interacción: indirecta y directa.
+•	Las interfaces indirectas de interacción permiten a un ser humano operar el robot, en ellas el flujo de información es unidireccional.
+•	Las interfaces directas de interacción permiten una comunicación bidireccional con el robot; un ejemplo de este tipo de interfaces son los robots que hablan y que son capaces de entender un vocabulario especifico que les permite una comunicación con las personas en su entorno.
+El diseño de las interfaces de interacción entre humanos y robots depende específicamente de la función que el robot desempeña en el ambiente y el grado de interacción con personas que se presentará.
+En un robot destacan principalmente dos características primordiales con las que debe de contar, las cuales son:
+•	Multifuncionalidad: Es versatilidad para llevar a cabo distintas tareas, incluso aquéllas no previstas en principio por los diseñadores, lo cual implica una considerable auto-adaptabilidad al entorno.
+•	Programabilidad: Capacidad para modificar la tarea mediante el cambio de programa, que propicia su adaptación rápida y económica a diferentes aplicaciones.
+Un robot es capaz de hacer su tarea sin intervención del operador, tomando las decisiones oportunas a partir de la información que recaban sus sensores, gracias al programa almacenado en su memoria.
+Una definición breve y realmente atinada de robótica es: La Robótica es la conexión inteligente de la percepción a la acción, de Michael Brady, Richard Paul, publicada en 1984.
+Para que un robot pueda reunir todas estas características, se le pueden otorgar diversas habilidades como lo son:
+•	Reconstrucción del entorno
+•	Reconocimiento de voz
+•	Reconocimiento de expresiones faciales
+•	Reconocimiento de posturas
+•	Comunicación por medio de sonidos y voz
+•	Comunicación por medio de imágenes
+•	Comunicación por medio de gestos y movimientos
+ 
+2.1 Reconstrucción del entorno 
+Un robot puede identificar el entorno que lo rodea, con base a esto puede realizar diversas operaciones, para poder brindar esta habilidad se requiere de la visión artificial, con esto un robot puede involucrarse en las siguientes actividades:
+Identificación e inspección de objetos.
+•	Determinación de la posición de los objetos en el espacio.
+•	Establecimiento de relaciones espaciales entre varios objetos (guiado de robots).
+•	Determinación de las coordenadas importantes de un objeto.
+•	Realización de mediciones angulares.
+•	Mediciones tridimensionales.
+El SLAM del inglés Simultaneous Localization and Mapping es una técnica usada en robótica móvil principalmente, para construir un mapa de un entorno desconocido en el que se encuentra el robot, manteniendo de forma simultánea información sobre su trayectoria dentro de ese entorno.
+Mediante el uso del SLAM se puede hacer la reconstrucción del entorno como se muestra a continuación.
+ 
+Para resolver el problema de la localización de un robot existen diferentes alternativas que utilizan mapas “pre construidos” e introducidos al robot de forma previa, o que elaboran dichos mapas a medida que el robot se va desplazando. La solución al problema SLAM está considerada como pieza clave en la búsqueda de la completa autonomía de un robot y concentra los principales esfuerzos de investigación de grupos de robótica móvil de todo el mundo, que han conseguido importantes avances y continúan intentando resolver dicho problema.
+El procesamiento de voz se divide en tres grandes áreas:
+•	Identificación del locutor
+•	Reconocimiento del habla
+•	Producción artificial o síntesis de voz.
+El reconocimiento del locutor es el proceso de reconocer automáticamente la identidad de la persona que habla utilizando para ello la información de las ondas de sonido que emite. Los sistemas de autenticación de locutor típicamente están compuestos por dos módulos: el primero de ellos se encarga de extraer de una muestra de voz las características relevantes para la identificación del hablante; el segundo módulo, se encarga de comparar dichas características con las que identifican a las personas conocidas por el sistema.
+El procesamiento espectral de corto tiempo es el procedimiento comúnmente seguido para la identificación del locutor; en él, fragmentos de corta duración (menores a 100ms) son utilizados como muestras para las técnicas de caracterización.
+El reconocimiento del habla referente a palabras o frases es el proceso de identificar automáticamente la palabra o serie de palabras que un locutor emite y transformarlas en entradas entendible para una máquina. El resultado de este proceso puede ser texto o una representación de palabras que a su vez sirva para, ejemplo, desencadenar un evento. Existen básicamente dos tipos de reconocimiento automático del habla:
+•	Direct voice input (DVI)
+•	Large vocabulary continuous speech recognition (LVCSR)
+Los sistemas DVI están típicamente configurados para un vocabulario relativamente pequeño, su objetivo es reconocer las palabras o frases y poner a disposición la información reconocida para otra aplicación. Los sistemas LVCSR, por otro lado, son utilizados para la creación de documentos a partir del reconocimiento de frases extensas.
+Una de las técnicas empleadas para el reconocimiento del habla es la comparación de patrones; este método involucra el análisis espectral de muestras de voz para cada una de las palabras que se desea reconocer. Por supuesto, el inconveniente de la gran cantidad de muestras que son necesarias para acumular un extenso vocabulario salta a la vista inmediatamente; además, para garantizar el reconocimiento, la pronunciación de cada palabra o frase tendría que ser muy aproximada a la pronunciación de las muestras de entrenamiento.
+ 
+Otra técnica consiste en identificar subunidades en las palabras, típicamente fonemas. Al reconocer los fonemas que componen cada palabra, la traducción a su equivalente escrito es sencilla; de este modo, en vez de almacenar miles de palabras, se almacena el reducido número de fonemas que componen un lenguaje. La calidad de los sistemas de reconocimiento del habla se mide en términos de precisión y velocidad.
+La síntesis de voz es un proceso que permite obtener voz a partir de un texto o una representación lingüística de un texto. Los sistemas de síntesis de voz típicamente están construidos por dos partes: la primera de ellas es un módulo encargado de la traducción de texto a una representación lingüística fonética. Este proceso se realiza en tres pasos:
+•	Se cambian partes problemáticas como números o abreviaturas por palabras equivalentes, es decir, el texto es normalizado.
+•	Se toma el texto normalizado y se traduce cada palabra a su equivalente fonético.
+•	Se crean unidades prosódicas, por ejemplo, oraciones.
+El segundo módulo de los sistemas de síntesis de voz toma la representación fonética del texto y la convierten en sonidos. La complejidad en la construcción de sistemas de síntesis de voz depende, entre otros factores, del lenguaje a sintetizar; factores tales como la relación entre la ortografía y la fonética de cada lenguaje varían la complejidad de la asignación fonética al texto y por tanto del proceso de síntesis de voz. La calidad de la síntesis de voz es evaluada a partir de dos aspectos: inteligibilidad y naturalidad. El criterio de inteligibilidad evalúa que tan fácil es entender la voz sintetizada. La naturalidad se refiere a la medida en que la voz sintética es parecida a una voz humana.
+Existen distintos tipos de síntesis de voz, dos de ellos son los más habituales: Síntesis por concatenación y síntesis de formantes.
+1.	La síntesis por concatenación utiliza segmentos de voz grabadas para producir la voz deseada.
+2.	La síntesis de formantes produce el sonido utilizando un modelo acústico en las que variables como la frecuencia fundamental de la onda son modificados con el objetivo de producir el conjunto de sonidos de un lenguaje.
+En el caso de síntesis de formantes, la voz resultante no es tan natural como la obtenida de un proceso de concatenación, pero el procesamiento necesario para la síntesis es menor. En los sistemas de síntesis de voz a partir de texto la única diferencia entre la síntesis de una palabra o de un texto es el tiempo de procesamiento.
+ 
+2.3 Reconocimiento de expresiones faciales 
+Las emociones humanas constituyen una reacción a un estímulo externo o una expresión espontánea de un proceso de pensamiento interno. Emociones como el miedo suelen constituir una reacción a un estímulo externo, como cuando cruzamos una carretera con una gran cantidad de vehículos el miedo de ser atropellados hace que nuestro mecanismo de nervioso se active. Se trata de causas externas que disparan las emociones dentro de nuestro cerebro.
+En los últimos años, la IA ha mejorado significativamente en lo que respecta a su capacidad para detectar emociones en los seres humanos a través de la voz, el lenguaje corporal, las expresiones, etc. Por ejemplo, los sistemas en software de IA de reconocimiento de voz están aprendiendo a detectar las emociones humanas a través de la entonación del habla, las pausas del habla, etc., de la misma forma que detectamos cambios en el ánimo de nuestros allegados, nuestros amigos o nuestros compañeros de trabajo. Recientemente, se ha desarrollado un programa de IA de aprendizaje profundo que puede señalar si una determinada persona es un criminal simplemente mirando las características de su rostro con un porcentaje de precisión cercano al 90 %. En 2016, Apple adquirió una start-up que creó un software que lee expresiones faciales, denominado Emotient.Este sistema podría utilizarse para lograr que programas de IA tales como SIRI y Alexa comprendan los estados de ánimo de sus propietarios.
+2.4 Reconocimiento de posturas  
+En los últimos años se ha incrementado el interés por desarrollar interfaces visuales de comunicación gestual humano-robot de servicio cada vez más natural, efectivo y eficiente. Sin embargo, es bien conocida la importancia de seleccionar características o atributos para la correcta clasificación de posturas.
+La localización y seguimiento de un usuario en una secuencia de imágenes, así como su representación dentro del sistema son problemas de visión computacional.
+La extracción de características de movimiento y el reconocimiento de posturas son problemas correspondientes al área del reconocimiento de patrones. Aunque estas áreas no son del todo excluyentes entre sí, plantear cada elemento de forma separada ayuda a simplificar la comprensión del problema y el proceso de desarrollo. Aun con avances significativos, no existe una solución única para cada etapa y las alternativas que se eligen dependen de la aplicación en la que serán utilizadas.
+Las aplicaciones médicas son un buen ejemplo de su utilidad. El reconocimiento del lenguaje de sordomudos, que es una de las aplicaciones más exploradas, puede usarse junto con la síntesis o generación automática de voz como una opción para la gente con problemas del habla.
+Una aplicación de las interfaces multimodales es el KidsRoom. Un cuarto de juego para niños con pantallas de video, luces y sonido en el que los usuarios interactúan por medio de sus actividades con la historia que se les proyecta. Tales actividades son controladas por la propia historia y por lo tanto la flexibilidad de la interacción es limitada. En realidad, virtual las posturas se utilizan para sintetizar movimientos de humanos virtuales y avatares.
+2.4 Reconocimiento de posturas  
+Las técnicas para el reconocimiento de ademanes también pueden usarse en la síntesis de movimiento y para proporcionar esta capacidad a entidades del mundo virtual, aumentando la experiencia social en la inmersión del usuario.
+El objetivo es desarrollar robots de servicio para emplearlos en tareas de la vida diaria, en ayuda a personas discapacitadas, como asistentes de personas de edad avanzada o guías en recorridos.
+Una habilidad es la comunicación por gestos y movimientos. Con ellos se puede instruir al robot con información espacial del tipo “Dame ese objeto” o “Muévete a este lugar”. También sirven para mostrarle como realizar tareas simples y en conjunto con instrucciones de voz para enseñarle información del mundo, por ejemplo, “Esto es un cubo”. De la misma manera, las posturas pueden ayudar a dirigir a los robots a distancia en actividades potencialmente peligrosas para el ser humano, como la exploración y navegación en ambientes hostiles o desconocidos.
+ 
+2.5 Comunicación por medio de sonidos y voz 
+Para que una orden de voz pueda desencadenar una acción por parte de un robot, un proceso complejo debe desarrollarse.
+•	Primero, se debe contar con un proceso de reconocimiento del habla, es decir, poseer la capacidad de identificar palabras y oraciones complejas.
+•	Segundo, se debe poseer un método para descifrar el significado de la orden, es decir, un algoritmo capaz de “mapear” la orden a una serie de instrucciones para el robot.
+•	Tercero, una vez que se tiene conocimiento del significado de la orden, las acciones pueden ser ejecutadas por el robot.
+El primer paso del proceso ha sido estudiado durante muchos años y existen una gran fuente de conocimiento relacionada con el reconocimiento del habla. Existen numerosos trabajos relacionados con la tarea de extraer significado a partir de oraciones u otros medios, videos, por ejemplo. Dominey y Boucher describen un sistema que puede adquirir una gramática limitada utilizando para ello un entrenamiento con vídeo narrado de eventos.
+Cada caso narrado genera un par oración-significado que se utiliza como entrada a un modelo que aprende la oración y la asignación de significado.
+El sistema es un módulo de enlace entre el usuario y el robot cuya función principal es reconocer instrucciones o interrogaciones del usuario y traducirlas a órdenes o consultas para el robot, respectivamente. Además, el sistema debe poder captar las respuestas del robot y presentarlas al usuario en forma oral.
+2.5 Comunicación por medio de sonidos y voz 
+Cabe destacar que, si bien la mayor parte del sistema de interacción corre en una computadora, al menos un módulo de conexión debe ser desarrollado en el robot para proveer comunicaciones entre dicho agente y el sistema.
+El sistema desarrollado debe cumplir con cuatro requerimientos fundamentales los cuales son descritos a continuación:
+•	El sistema debe ser capaz de traducir una instrucción verbal, de un conjunto definido a priori, en una acción motriz por parte del robot.
+•	El sistema debe poder traducir una pregunta, también de un limitado conjunto de ellas establecido previamente, y expresada de forma oral la respuesta que el robot emita tras recibir la pregunta.
+•	El sistema debe permitir, de forma oral, enseñar al robot comportamientos básicos; estos comportamientos deben estar basados en una combinación de acciones y percepciones del entorno que rodea al robot.
+•	El sistema debe permitir enseñar al robot comportamientos complejos basados en la combinación de percepciones, acciones simples y comportamientos previamente aprendidos por el robot.
+De igual manera para poder realizar la comunicación entre el sistema y el robot se deben cubre los siguientes requerimientos:
+•	El sistema debe permitir la comunicación inalámbrica entre la computadora y el robot.
+•	La comunicación debe ser bidireccional para permitir al sistema ordenar acciones y preguntar sobre percepciones y al mismo tiempo permitir al robot responder a estas últimas.
+•	El sistema de comunicaciones debe permitir el envío y recepción de múltiples paquetes de información por segundos.
+2.5 Comunicación por medio de sonidos y voz 
+ 
+2.6 Comunicación por medio de imágenes 
+La comunicación por imágenes, se da más en el sector industrial, en donde se realiza una comparación de los procesos y de acuerdo a ello se realizan acciones para complementar o hacer más eficaz un proceso. Para realizar esta comunicación es necesario realizar un análisis y tratamiento de imágenes.
+Al conjunto de técnicas y procesos para descubrir o hacer resaltar información contenida en una imagen usando como herramienta principal una computadora se le conoce como procesamiento digital de imágenes (PDI). El PDI es un área de investigación muy específica en computación y está muy relacionada con el procesamiento digital de señales.
+El interés en el estudio del PDI se basa en dos áreas de aplicación primordiales:
+	El mejoramiento de la calidad de la información contenida en una imagen con el fin de que esta información pueda ser interpretada por los humanos.
+	El procesamiento de los datos contenidos en un escenario a través de una máquina de percepción autónoma.
+El primer paso a realizar es diseñar y definir qué acciones queremos que el robot ejecute mediante el análisis y procesamiento de diferentes imágenes. Las funciones a realizar por el robot son:
+•	Identificar la zona de trabajo.
+•	Seleccionar la herramienta a utilizar.
+•	Identificar si son puntos discontinuos o trazo continuo.
+•	Realizar la trayectoria definida ya sean puntos sueltos o trazos continuos.
+2.6 Comunicación por medio de imágenes 
+El segundo paso es definir las imágenes que indicarán al robot las acciones a realizar. Para ello es necesario detallar las imágenes definidas y el procesamiento realizado para conseguir la información necesaria para el robot.
+Para ello las imágenes que se definen pueden ir desde trazos muy básicos, hasta comparar un patrón, es decir desde una figura geométrica básica podemos hacer que el robot reconozca para poder ejecutar alguna actividad específica o el uso de una herramienta.
+ 
+2.7 Comunicación por medio de gestos y movimientos
+Imaginemos un futuro donde los robots preparen el café, abran la puerta o recojan la basura por nosotros. Para realizar de forma efectiva esas tareas, dichos robots deben contar con habilidades de comunicación similares a las utilizadas por los humanos en la vida diaria. Una de tales habilidades es la comunicación por ademanes. Estos conforman un medio visible para expresar sentimientos, actitudes, realizar órdenes, indicar lugares y la duración de algún suceso; también son un complemento para el lenguaje hablado y pueden clarificarlo cuando es ambiguo o inaudible.
+El proceso del reconocimiento visual de movimientos implementado en un robot consta de una o más videocámaras las cuales capturan las imágenes que registran el ademan. Mediante el análisis visual se aísla la figura del individuo en las imágenes. Posteriormente se extraen las observaciones relevantes para describir el ademan. Finalmente, estas observaciones se clasifican como correspondientes a uno de los ademanes almacenados en una base de datos.
+Inicialmente, una o más videocámaras capturan una secuencia de imágenes que registra la ejecución de un gesto o movimiento. En estas imágenes se realiza un análisis visual para aislar la figura del individuo en cada imagen y describirla mediante algún modelo predeterminado, representaciones con formas geométricas simples, el contorno o la silueta. De estas descripciones se extrae una secuencia de observaciones o valores de atributos relevantes para caracterizar la evolución del gesto o movimiento. Finalmente, estas observaciones son reconocidas o clasificadas como un ademan particular de acuerdo a su similitud con alguno de los ademanes almacenados en una base de datos.
+2.7 Comunicación por medio de gestos y movimientos
+En general, las observaciones de un gesto o movimiento suelen ser imprecisas por diversas razones:
+a)	No siempre es posible observar la trayectoria completa del ademan por oclusión de la mano y brazo con otras partes del cuerpo.
+b)	Los sistemas de análisis visual artificiales o biológicos no son exactos en la segmentación o seguimiento de la persona.
+c)	Es muy difícil realizar un gesto o movimiento dos veces exactamente de la misma manera aun cuando se trate del mismo ejecutante.
+Los modelos probabilistas son una forma conveniente para manejar la incertidumbre propia de la ejecución de gestos y movimientos. Particularmente, los modelos ocultos de Markov que son un caso especial de las redes Bayesianas dinámicas, se han convertido en la técnica estándar en el reconocimiento visual de gestos y movimientos. El reconocimiento de ademanes es un elemento clave en el éxito de una comunicación natural hombre-máquina. Aunque en la literatura se describen muchos avances interesantes en este campo.
+ 
+Para saber más sobre los temas vistos en esta unidad revisa los siguientes materiales:
+•	Las impresionantes habilidades del robot Atlas
+En esta revista encontraras artículos de investigación sobre nuevos desarrollos el robot Atlas, que ha adquirido una gran cantidad de habilidades. Las impresionantes habilidades del robot Atlas.
+https://israelnoticias.com/tecnologia/las-impresionantes-habilidades-del-robot-atlas/
+•	Las 10 habilidades que u robot nunca podrá aprender
+En este articulo podrás ver algunos argumentos respecto a como se considera la adquisición de habilidades en los robots. Las 10 habilidades que un robot nunca podrá aprender.
+https://noticias.universia.es/practicas-empleo/noticia/2018/05/08/1159731/10-habilidades-robot-nuncapodra-aprender.html
+•	El tacto en los robots
+Con este video lograras identificar la capacidad de implementar el tacto en un sistema robótico ya aplicado a un sistema real. El tacto en los robots. https://www.youtube.com/watch?v=k0eeTMSN4mc
+De este tema podemos concluir, qué para poder realizar un avance, desarrollo o programación en los robots, debemos de ser precisos en la forma en la que nos comunicaremos con los robots, también dependerá de los recursos con los que cuenta tanto el humano como el robot, así como el propósito hacia el que está enfocado el robot. No es lo mismo utilizar un sistema de comunicación mediante gestos cuando nos encontramos a una distancia considerable, a hacer uso de la voz. También puede presentarse el hecho de contar con una discapacidad, en donde se involucraría un robot de asistencia.
+Es bueno mencionar, que esto es importante porque a como se ha mencionado con anterioridad, la palabra robot se extiende cada vez más. Surgen nuevas áreas de aplicación, en las que debemos destinar dispositivos específicos, en caso contrario, si no podemos hacer, que nuestro robot logre su propósito, solo estamos creando manipuladores o máquinas de las cuales no se puede seguir obteniendo una retroalimentación para desarrollos a futuro.
+¡El éxito es la suma de pequeños esfuerzos que se repiten cada día!
+¡Felicidades!
+Has concluido la unidad 2, continúa esforzándote.
+•	Acciona.	(3	septiembre	2018).	El	tacto	en	los	robots.	[Video].	YouTube. https://www.youtube.com/watch?v=k0eeTMSN4mc
+•	Aviles, H. y Sucar, E. (2002). Dynamic Bayesian networks for visual recognition of dynamic gestures. Journal of Intelligent and Fuzzy Systems. V 12.
+•	Boston,	D.	(2018).	Las	impresionantes	habilidades	del	robot	Atlas.	Israel	Noticias, https://israelnoticias.com/tecnologia/las-impresionantes-habilidades-del-robot-atlas/
+•	Russell, S.J. and Norvig, P. (2002). Robotics en Artificial Intelligence: A Moder Approach. Prentice Hall.
+•	Schroeter, J. (2003). Text-to-Speech Synthesis. Electrical Engineering Handbook. CRC Press and IEEE Press.
+•	Strobel, M. y otros. (2002). Gesture recognition in a spatial context for commanding a domestic service robot. In Proceedings of the 33rd International Symposium on Robotics (ISR), p 7–11.
+•	Universia	es.	(2018).	Las	10	habilidades	que	un	robot	nunca	podrá	aprender. https://noticias.universia.es/practicas-empleo/noticia/2018/05/08/1159731/10-habilidades-robot-nuncapodra-aprender.html
